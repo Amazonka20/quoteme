@@ -1,0 +1,90 @@
+.funcBar {
+    width: 61%;
+    margin: auto;
+    display: flex;
+}
+
+.searchBox {
+    margin-left: 40px;
+    flex: 50%;
+}
+
+.title {
+    box-shadow: inset 0 2px 5px 0 #353d40;
+    background-color: #68788C;
+    color: #fff;
+    padding: 18px 0 3px 0;
+    font-size: 1.5em;
+}
+
+.category {
+    flex: 20%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 2em 0 4em 0;
+}
+
+.pagination a {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444444;
+    color: #53495e;
+    margin-right: 10px;
+    outline: none;
+}
+
+.pagination__link {
+    font-weight: bold;
+}
+
+.pagination__link_active a {
+    color: #fff;
+    background: #D59930;
+    border: 1px solid rgb(147, 147, 147);
+}
+
+.pagination__link_disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+}
+
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.4) !important;
+    padding: 40px;
+}
+
+.notification > div {
+    box-shadow: none !important;
+    background-color: rgb(245, 227, 196) !important;
+    border: solid 1px black;
+    border-radius: 0 !important;
+}
+
+.notification div {
+    text-align: center;
+    justify-content: space-evenly !important;
+}
+
+.notification button {
+    padding: 10px 24px !important;
+    font-size: 0.9em !important;
+    color: white !important;
+    background-color: #809e38 !important;
+}
+
+.notification button + button {
+    color: white !important;
+    background-color: #D97855 !important;
+}

@@ -1,0 +1,58 @@
+.navUl {
+    font-family: 'Merri', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw 1vw;
+}
+
+.navUl li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.navUl a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.title {
+    margin: auto;
+    padding-left: 10px;
+    color: #4e5b68;
+}
+
+.navLink {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navLink a {
+    width: 100px;
+    background-color: #68788C;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px;
+    padding: 9px 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}

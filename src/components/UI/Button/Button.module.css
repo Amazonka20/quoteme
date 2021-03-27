@@ -1,0 +1,23 @@
+.btn {
+    background-color: #68788C;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 0.9;
+    width: 150px;
+    outline: none;
+    margin: 0.5em;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}

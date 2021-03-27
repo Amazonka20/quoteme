@@ -1,0 +1,55 @@
+.formBox {
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+.formBox legend {
+    margin: 5vw 0 2vw;
+    font-size: 1.1em;
+}
+
+.button {
+    justify-content: space-around;
+    display: flex;
+}
+
+.title {
+    margin-top: 2em;
+    color: #282c34;
+}
+
+.label {
+    text-align: left;
+    font-size: small;
+}
+
+.validationMessage {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.2em;
+    border: 1px solid #A9B6CC;
+}
+
+.invalid {
+    color: white;
+    background-color: #D97855;
+}
+
+.success {
+    color: #4a5048;
+    background-color: #BDCC94;
+}
+
+.requiredIcon {
+    text-align: left;
+    font-size: 0.8em;
+    margin: 0 0 10px 11px;
+}
+
+.requiredIcon span {
+    font-size: 1.3em;
+    color: #bf7402;
+}
+

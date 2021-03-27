@@ -1,0 +1,80 @@
+.blockquote {
+    font-size: 1.3em;
+    margin-left: 0.5em;
+    color: #4e5b68;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categoryBox {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.category {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.category p {
+    font-size: 0.6em;
+    padding: 5px;
+    margin: auto;
+}
+
+.box {
+    width: 60%;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 1px 2px 6px #7f7f7f;
+}
+
+.quoteBox {
+    width: 100%;
+    margin: 0 10px 0 45px;
+}
+
+.author {
+    margin-right: 20px;
+    text-align: left;
+    font-family: serif;
+}
+
+.quote {
+    text-align: left;
+    max-width: 90%;
+    white-space: pre-wrap;
+}
+
+.delete {
+    margin-left: 5px;
+    font-size: 0.9em;
+    width: 1em;
+    color: #282c34;
+}
+
+.delete span {
+    cursor: pointer;
+    outline: none;
+}
+
+.delete span:hover {
+    text-decoration: none;
+    color: #D59930;
+}
+
+.editQuote span {
+    margin: 7px;
+    color: #282c34;
+}
+
+.editQuote span:hover {
+    cursor: pointer;
+    color: #D59930;
+}

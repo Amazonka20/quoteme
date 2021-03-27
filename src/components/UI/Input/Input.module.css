@@ -1,0 +1,80 @@
+.inputField {
+    width: 100%;
+    padding: 6px 24px 6px 8px;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    border: solid 1px #999898;
+    flex: auto;
+}
+
+.inputField:focus {
+    border: 1px solid #fda91f;
+}
+
+.inputContainer textarea {
+    white-space: pre-wrap;
+}
+
+.inputContainer {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #EEEEEE;
+    font-size: 1.1em;
+    color: #000000;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    border: solid 1px #999898;
+    border-right: 0;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #e7a537;
+}
+
+.title {
+    margin: auto 1.1em;
+    flex: 100px;
+}
+
+.selectField {
+    width: 100%;
+    padding: 0.3em;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    border: solid 1px #999898;
+    flex: auto;
+}
+
+.checkBox {
+    margin: 0 75% 0 0;
+    transform: scale(1.2);
+}
+
+.inputBox {
+    display: flex;
+}
+
+.requiredIcon {
+    color: #bf7402;
+    margin-left: -22px;
+    font-size: 1.3em;
+    margin-top: 0.2em;
+}
+
+.categoryTitle {
+    margin: auto 0;
+    flex: 100px;
+    border: solid 1px #999898;
+    padding: 10px;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
